@@ -1,0 +1,327 @@
+/*start style logo menu*/
+.line-center{
+    transform: translateX(100px);
+    opacity: 0;
+}
+.ferst-line{
+    transform: translate(0px,9px) rotate(45deg);
+
+}
+
+.terth-line{
+    transform: translate(0px,-9px) rotate(-45deg);
+
+}
+/*end style logo menu*/
+
+
+
+/*start style swiper */
+/* ================================================================ */
+.continer {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    overflow-x: hidden;
+  }
+  
+/* .slid-1 {
+    width: 100%;
+    height: 400px;
+  } */
+
+
+/*================slide 1=======================*/
+
+  @keyframes slid-move {
+    0% {
+      right: 0%;
+    }
+    10% {
+      right: 0%;
+    }
+    20% {
+      right: 0%;
+    }
+    30% {
+      right: 0%;
+    }
+    40% {
+      right: -100%;
+    }
+    50% {
+      right: -100%;
+    }
+    60%{
+      right: -100%;
+    }
+    70% {
+      right: -100%;
+    }
+    80% {
+      right: -100%;
+    }
+    90% {
+      right: -100%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  .move {
+    animation-name: slid-move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    background-color: blue;
+    animation-fill-mode: backwards;
+  }
+  
+  /*================slide 2=======================*/
+  
+  @keyframes slid-move2 {
+    0% {
+      right: 100%;
+    }
+    10% {
+      right: 100%;
+    }
+    20% {
+      right: 100%;
+    }
+    30% {
+      right: 100%;
+    }
+    40% {
+      right: 0%;
+    }
+    50% {
+      right: 0%;
+    }
+    60%{
+      right: 0%;
+    }
+    70% {
+      right: -100%;
+    }
+    80% {
+      right: -100%;
+    }
+    90% {
+      right: -100%;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  .move-2 {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    animation-name: slid-move2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+  }
+  
+  /*================slide 3=======================*/
+  @keyframes slid-move3 {
+    0% {
+      right: 100%;
+    }
+    10% {
+      right: 100%;
+    }
+    20% {
+      right: 100%;
+    }
+    30% {
+      right: 100%;
+    }
+    40% {
+      right: 100%;
+    }
+    50% {
+      right: 100%;
+    }
+    60%{
+      right: 100%;
+    }
+    70% {
+      right: 0%;
+    }
+    80% {
+      right: 0%;
+    }
+    90% {
+      right: 0%;
+    }
+    100% {
+      right: 0%;
+    }
+  }
+  .move-3 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    animation-name: slid-move3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-fill-mode: backwards;
+  
+  }
+  
+
+
+/* ================================================================ */
+@keyframes anime1 {
+    0% {
+        width: 0px;
+        background-color: white;
+          }
+
+      30% {
+        width: 30px;
+        background-color: white;
+           }
+      31% {
+        width: 0px;
+        background-color: white;
+           }
+      40% {
+      width: 0px;
+      background-color: white;
+          }
+      50% {
+        width: 0px;
+        background-color: white;
+          }
+      60%{
+        width: 0px;
+        background-color: white; 
+          }
+      70% {
+        width: 0px;
+        background-color: white; 
+          }
+      80% {
+        width: 0px;
+        background-color: white; 
+          }
+      90% {
+        width: 0px;
+        background-color: white; 
+          }
+      100% {
+        width: 0px;
+        background-color: white; 
+          }
+
+}
+.anime1{
+    animation-name: anime1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+@keyframes anime2 {
+    0% {
+      width: 0px;
+      background-color: white;
+      }
+      10% {
+        width: 0px;
+        background-color: white;
+      }
+      20% {
+        width: 0px;
+        background-color: white;
+      }
+      30% {
+        width: 0px;
+        background-color: white;
+      }
+      60%{
+        width: 30px;
+        background-color: white;
+      }
+      61%{
+        width: 0px;
+        background-color: white;
+      }
+      70% {
+        width: 0px;
+        background-color: white;
+      }
+      80% {
+        width: 0px;
+        background-color: white;
+      }
+      90% {
+        width: 0px;
+        background-color: white;
+      }
+      100% {
+        width: 0px;
+        background-color: white;
+      }
+
+}
+.anime-2{
+    animation-name: anime2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+@keyframes anime3 {
+  0% {
+    width: 0px;
+    background-color: white;
+  }
+  10% {
+    width: 0px;
+    background-color: white;
+  }
+  20% {
+    width: 0px;
+    background-color: white;
+  }
+  30% {
+    width: 0px;
+    background-color: white;
+  }
+  40% {
+    width: 0px;
+    background-color: white;
+  }
+  50% {
+    width: 0px;
+    background-color: white;
+  }
+  60% {
+    width: 0px;
+    background-color: white;
+  }
+  99% {
+    width: 30px;
+    background-color: white;
+  }
+  100% {
+    width: 0px;
+    background-color: white;
+  }
+
+
+}
+.anime-3{
+  animation-name: anime3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+/*end style swiper*/
+
+
+
+
